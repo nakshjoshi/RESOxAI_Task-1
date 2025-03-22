@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TTS Web App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="gap"></div>
+    <h1>Text to Speech Converter</h1>
+    <div class="box">
+    <textarea id="text-input" placeholder="Enter text here..."></textarea>
+    <button onclick="synthesizeText()">Convert</button>
+    </div>
+<audio controls id="audioPlayer"></audio>
+    <script src="/static/app.js"></script>
+</body>
+</html>
