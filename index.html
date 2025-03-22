@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Bot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Voice Cloning</h2>
+        <div class="controls">
+            <button id="startRecording">🎤 Start Recording</button>
+            <button id="stopRecording" disabled>⏹ Stop Recording</button>
+            <p id="recordingStatus" class="hidden">Recording...</p>
+        </div>
+        <div id="audioSection" class="hidden">
+            <audio id="audioPlayer" controls></audio>
+            <button id="togglePlayback">▶ Play</button>
+        </div>
+        <textarea id="textInput" placeholder="Enter text to synthesize" ></textarea>
+        <div class="buttons">
+            <button id="cloneVoice" disabled>Clone Voice</button>
+            <button id="generateSpeech" disabled>Generate Speech</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
