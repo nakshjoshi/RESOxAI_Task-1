@@ -1,0 +1,9 @@
+{
+    "generator_model": "tts_models/en/ljspeech/tacotron2-DDC",
+    "model_architecture": "tacotron2-DDC",
+    "input_features": 128,
+    "output_features": 80,
+    "embed_dim": 512,
+    "num_heads": 8,
+    "ff_dim": 2048
+}
