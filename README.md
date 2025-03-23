@@ -81,38 +81,9 @@ http://localhost:5000
 
 ---
 
-## **Frontend Setup**  
-Ensure the following files are in the `static/` directory:  
-- `static/index.html` → **Main HTML file**  
-- `static/style.css` → **CSS file for styling**  
-- `static/app.js` → **JavaScript file for frontend logic**  
-- `static/backgroundimage.webp` → **Background image**  
 
-Ensure `app.py` serves the correct templates:  
-```python  
-from flask import Flask, render_template  
 
-app = Flask(__name__, static_folder='static', template_folder='static')  
-
-@app.route('/')  
-def home():  
-    return render_template('index.html')  
-
-if __name__ == "__main__":  
-    app.run(debug=True)  
-```
-
----
-
-### **6. (Optional) Run in Debug Mode**  
-For development, enable auto-reloading:  
-```bash  
-FLASK_ENV=development flask run  
-```
-
----
-
-### **7. Stop the Server**  
+### **6. Stop the Server**  
 To stop the Flask server, use:  
 ```bash  
 Ctrl + C  
