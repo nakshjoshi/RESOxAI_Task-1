@@ -39,30 +39,8 @@ http://localhost:5000
 ```
 (Default Flask port is `5000`, but modify accordingly if a different port is set in `app.py`.)
 
-### 5. Ensure Frontend is Connected
-- Your frontend files are located in the `static/` directory:
-  - `static/index.html` (Main HTML file)
-  - `static/style.css` (CSS file for styling)
-  - `static/app.js` (JavaScript file for frontend logic)
-  - `static/backgroundimage.webp` (Background image file)
-- Ensure `app.py` serves the correct templates by using:
-  ```python
-  from flask import Flask, render_template
-  app = Flask(__name__, static_folder='static', template_folder='static')
 
-  @app.route('/')
-  def home():
-      return render_template('index.html')
-  ```
-
-### 6. (Optional) Run in Debug Mode
-For development, use:
-```bash
-FLASK_ENV=development flask run
-```
-This enables auto-reloading and debug mode.
-
-### 7. Stop the Server
+### 5. Stop the Server
 To stop the Flask server, use `Ctrl + C` in the terminal.
 
 Your Flask backend should now be running successfully with the frontend!
