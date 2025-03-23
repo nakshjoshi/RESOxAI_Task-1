@@ -41,8 +41,8 @@ The project consists of:
 
 ### **1. Clone the Repository**  
 ```bash  
-git clone <repository-link>  
-cd <repository-folder>  
+git clone https://github.com/nakshjoshi/RESOxAI_Task-1  
+cd RESOxAI_Task-1  
 ```
 
 ### **2. Create a Virtual Environment**  
