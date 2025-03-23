@@ -14,8 +14,8 @@ Develop a **Generic Text-to-Speech (TTS) system** that converts any given text i
 ## **Approach**  
 We have used the **Coqui TTS model**, downloaded the **model parameters (.pth)** and **config.json**, and hosted the backend using **Flask**. The **frontend** is built using **HTML, CSS, and JavaScript**.  
 
-## **System Design**  
-![System Design](https://github.com/nakshjoshi/RESOxAI_Task-1/blob/main/path-to-your-image.png)  
+![System Design](https://github.com/nakshjoshi/RESOxAI_Task-1/blob/main/System_Design.png)
+
 
 
 
