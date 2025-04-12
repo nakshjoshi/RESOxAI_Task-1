@@ -110,4 +110,3 @@ This project is open-source and can be modified as needed.
 
 ---
 
-🚀 **Happy Coding!** 🚀  
